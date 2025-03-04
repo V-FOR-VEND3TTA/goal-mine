@@ -1,83 +1,78 @@
-# Python-related
-*.pyc
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*.so
 *.pyo
 *.pyd
-*__pycache__/
-*.so
-
-# Django-related
-*.log
-*.pot
-*.py[cod]
-*.sqlite3
-*.pyo
-*.mo
-*.env
 
 # Virtual environment
 venv/
-env/
-ENV/
+.env
+*.venv
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
+# Large datasets and temporary data files
+*.csv
+*.tsv
+*.json
+*.xml
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.pkl
+*.db
+*.sqlite
+*.sav
+*.zip
+*.gz
+*.tar
+*.7z
 *.log
-local_settings.py
-db.sqlite3
+*.npy
+*.npz
 
-# Static files
-staticfiles/
-media/
+# Environment variables
+.env
+*.env
+secrets.json
+config.json
+credentials.json
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# PyCharm
-.idea/
-
-# VSCode
+# VS Code settings
 .vscode/
+.history/
+*.code-workspace
 
-# macOS
-.DS_Store
+# PyCharm settings
+.idea/
+*.iml
 
-# Windows
-Thumbs.db
+# Jupyter Lab
+.jupyter/
+.jupytext/
+
+# Logs
+logs/
+*.log
+
+# Caches
+__pycache__/
+.cache/
+*.sqlite
+
+# Matplotlib figures and cache
+.mplconfig/
+
+# Compiled Cython files
+*.c
+*.o
+*.so
+
+# Temporary files
+*.tmp
+*.temp
+
