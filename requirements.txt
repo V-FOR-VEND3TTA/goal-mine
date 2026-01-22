@@ -11,7 +11,7 @@ joblib==1.4.2
 kiwisolver==1.4.8
 matplotlib==3.10.0
 more-itertools==10.6.0
-mplsoccer==1.4.0
+mplsoccer==1.6.1
 numpy==2.2.2
 packaging==24.2
 pandas==2.2.3
